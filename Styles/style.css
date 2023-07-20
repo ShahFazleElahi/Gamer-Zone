@@ -108,25 +108,24 @@ nav.menu-list a, .header-icon a {
 .menu-list a:hover, .header-icon a:hover{ 
   color: #f948b2; 
 } 
- .banner-area { 
+.banner-area { 
    background-color: #faf7fd; 
- } 
- .banner-section { 
+} 
+.banner-section { 
    display: flex; 
    justify-content: space-between; 
    align-items: center; 
    margin: auto; 
    max-width: 1400px; 
- } 
-  
- .banner-title { 
+}  
+.banner-title { 
    color: #0b0223; 
    text-align: center; 
    font-size: 48px; 
    font-weight: 600; 
    text-transform: uppercase; 
- } 
- .banner-subtitle { 
+} 
+.banner-subtitle { 
    text-align: center; 
    font-size: 95px; 
    font-weight: 800; 
@@ -134,20 +133,20 @@ nav.menu-list a, .header-icon a {
    background-image: linear-gradient(to bottom, #f948b2, #8758f1); 
    color: transparent; 
    -webkit-background-clip: text; 
- } 
- .banner-list { 
+} 
+.banner-list { 
    display: flex; 
    align-items: center; 
    margin-top: 20px; 
- } 
- .banner-info { 
+} 
+.banner-info { 
    color: #534c64; 
    text-align: center; 
    font-size: 20px; 
    font-weight: 500; 
    text-transform: lowercase; 
- } 
- .banner-list .right-icon { 
+} 
+.banner-list .right-icon { 
    border: 1px solid #0b0223; 
    height: 20px; 
    width: 20px; 
@@ -158,59 +157,56 @@ nav.menu-list a, .header-icon a {
    color: #f948b2; 
    margin-right: 15px; 
    font-size: 16px; 
- } 
- .banner-list .right-arrow { 
+} 
+.banner-list .right-arrow { 
    color: #f948b2; 
    margin-right: 15px; 
    font-size: 16px; 
- } 
- .banner-list .right-user { 
+} 
+.banner-list .right-user { 
    color: #0b0223; 
    margin-right: 15px; 
    font-size: 16px; 
- } 
-  
- .banner-img img { 
+}  
+.banner-img img { 
    width: 700px; 
    height: auto; 
- } 
-  
- .player-area { 
+}  
+.player-area { 
    padding: 100px 0px; 
- } 
- .player-title { 
+} 
+.player-title { 
    color: #0b0223; 
    text-align: center; 
    font-size: 48px; 
    font-weight: 700; 
    text-transform: capitalize; 
- } 
- .multi-color { 
+} 
+.multi-color { 
    background-image: linear-gradient(to bottom, #f948b2, #8758f1); 
    color: transparent; 
    -webkit-background-clip: text; 
- } 
- .player-description { 
+} 
+.player-description { 
    color: #534c64; 
    text-align: center; 
    font-size: 18px; 
    font-weight: 400; 
    line-height: 30px; 
- } 
- .player-group { 
+} 
+.player-group { 
    display: grid; 
    grid-template-columns: repeat(4, 1fr); 
    margin-top: 50px; 
- } 
- .single-player { 
+} 
+.single-player { 
      z-index: 2; 
    width: 320px; 
    position: relative; 
    background-size: cover; 
    background-position: center; 
- } 
-  
- .player-box { 
+}   
+.player-box { 
      top: 0px; 
      opacity: 0; 
      z-index: 2; 
@@ -238,8 +234,8 @@ nav.menu-list a, .header-icon a {
      -moz-border-radius: 5px; 
      -ms-border-radius: 5px; 
      -o-border-radius: 5px; 
- } 
- .single-player:hover .player-box{ 
+} 
+.single-player:hover .player-box{ 
      opacity: 1; 
      visibility: visible; 
      transform: scale(1); 
@@ -247,8 +243,8 @@ nav.menu-list a, .header-icon a {
      -moz-transform: scale(1); 
      -ms-transform: scale(1); 
      -o-transform: scale(1); 
- } 
- .player-box:before { 
+} 
+.player-box:before { 
      z-index: -1; 
      content: ""; 
      width: 100%; 
@@ -256,14 +252,14 @@ nav.menu-list a, .header-icon a {
      opacity: .75; 
      position: absolute; 
      background-color: rgba(0, 0, 0, 0.5); 
- } 
- p.box-description { 
+} 
+p.box-description { 
      color: #FFFFFF; 
      font-size: 18px; 
      font-weight: 600; 
      margin-top: 10px; 
- } 
- .player-box a { 
+} 
+.player-box a { 
      color: black; 
      background-color: #FFFFFF; 
      width: 20px; 
@@ -274,58 +270,54 @@ nav.menu-list a, .header-icon a {
      align-items: center; 
      justify-content: center; 
      text-decoration: none; 
- } 
-  
- .single-player img { 
+} 
+.single-player img { 
    width: 100%; 
- } 
-  
- .single-description { 
+}  
+.single-description { 
    color: #534c64; 
    font-size: 20px; 
    font-weight: 500; 
    line-height: 30px; 
- } 
-  
- .game-section { 
+} 
+.game-section { 
    padding: 80px 0px 150px; 
- } 
- .game-area { 
+} 
+.game-area { 
    display: flex; 
- } 
- .game-img img { 
+} 
+.game-img img { 
    width: 600px; 
    height: 650px; 
- } 
- .game-content { 
+} 
+.game-content { 
    width: 30%; 
    margin: auto; 
- } 
- .game-title { 
+} 
+.game-title { 
    text-align: right; 
    font-size: 48px; 
    font-weight: 700; 
    line-height: 60px; 
- } 
- .game-description { 
+} 
+.game-description { 
    color: #534c64; 
    text-align: right; 
    font-size: 18px; 
    font-weight: 400; 
    line-height: 30px; 
- } 
- .game-img { 
+} 
+.game-img { 
    position: relative; 
- } 
- img.box-img { 
+} 
+img.box-img { 
    position: absolute; 
    width: 270px; 
    height: 280px; 
    left: -20%; 
    bottom: -13%; 
- } 
-
- .cartoon-section { 
+} 
+.cartoon-section { 
    padding: 100px 0px; 
    background: linear-gradient(90deg, #ff42a508 0%, #ff42a508 100%); 
  } 
@@ -358,17 +350,14 @@ nav.menu-list a, .header-icon a {
    border-radius: 50px; 
    padding: 6px; 
  } 
-  
  .single-cartoon img { 
    margin-right: 15px; 
  } 
-  
  .cartoon-group { 
    display: flex; 
    flex-wrap: wrap; 
    justify-content: center; 
  } 
-  
  .single-cartoon p { 
    font-size: 16px; 
    text-transform: capitalize; 
@@ -454,8 +443,6 @@ nav.menu-list a, .header-icon a {
  .footer-logo h1 { 
    color: #ffffff; 
  } 
-  
- /* ------- Footer Section Styles End ------- */
 
  @media screen and (max-width: 1050px) { 
   .player-group{ 
@@ -489,9 +476,8 @@ nav.menu-list a, .header-icon a {
 img.box-img{ 
   left: 0%; 
 } 
-
-
 } 
+
 @media screen and (min-width: 577px) and (max-width: 768px) { 
 .top-header, 
 .nav-menu, 
